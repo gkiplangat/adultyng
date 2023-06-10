@@ -1,3 +1,7 @@
+/*Change the navbar background*/
+.navbar {
+    background-color: black;
+}
 /* Center the navigation menu */
 .navbar-nav {
     margin: auto;
@@ -8,5 +12,29 @@
 
   /* Change font color to aqua */
   .navbar-nav .nav-link {
+    color: white;
+    font-size: 22px;
+    text-transform: uppercase;
+  }
+/* Change the background of active menu to aqua */
+    .navbar-nav .nav-link .active{
+        opacity: 0.8;
+   }
+
+  /* Sign-in button styles */
+  .navbar-nav .nav-signin {
+    background-color: aqua;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 4px;
+  }
+
+  /* Optional: Add margin to the sign-in button */
+  .navbar-nav .nav-signin {
+    margin-left: 10px;
+  }
+  /* Change color of the toggler icon to aqua */
+  .navbar-dark .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 128, 128, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
     color: aqua;
   }
