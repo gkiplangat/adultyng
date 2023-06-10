@@ -1,0 +1,12 @@
+/* Center the navigation menu */
+.navbar-nav {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* Change font color to aqua */
+  .navbar-nav .nav-link {
+    color: aqua;
+  }
