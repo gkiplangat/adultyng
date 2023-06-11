@@ -1,41 +1,190 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>adultyng podcast</title>
-    <!--Bootstrap CDN-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-  
-</head>
-<body>
-    
-  <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-    <a class="navbar-brand" href="#">myLogo</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">About Us</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Podcast</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Contact Us</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Adultyng Podcast</title>
+        <!-- aos css cdn link  -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+        <!-- google fonts cdn link  -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;500&family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
+        <!-- font awesome cdn link  -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+        <!-- custom css file link  -->
+        <link rel="stylesheet" href="home.css">
+    </head>
+    <body>
+        <!-- header section starts  -->
+        <header>
+            <a href="#" class="logo">
+                <img src="./images/logo.png" alt="">
+            </a>
+            <div id="menu-bar" class="fas fa-bars"></div>
+            <nav class="navbar">
+                <ul>
+                    <li>
+                        <a class="active" href="#home">home</a>
+                    </li>
+                    <li>
+                        <a href="#about">about Us</a>
+                    </li>
+                    <li>
+                        <a href="#podcast">Podcast</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact Us</a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <button class="btn">Sign In</button>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <!-- header section ends -->
 
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-</body>
+        <!-- home section starts  -->
+        <section class="home" id="home">
+            <div class="content" data-aos="fade-right">
+                <h3>
+                    Adultyng
+                    <span>Podcast</span>
+                </h3>
+                <h5>With</h5>
+                <h4>
+                    <span>Chelagat</span>
+                    Pauline
+                </h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, veniam provident. Et quasi neque numquam dolorum iure, sit, magni optio saepe dolorem culpa alias. Consequuntur eaque porro quo quam reprehenderit temporibus reiciendis, consectetur ipsa veritatis, nisi natus expedita assumenda facere nemo optio? Optio, eligendi. Dicta repellendus alias possimus omnis nemo.</p>
+                <p>
+                    <audio controls>
+                        <source src="Introduction_audio.mp3" type="audio/mp3">
+                        Your browser does not support the audio element.
+                    </audio>
+                </p>
+            </div>
+            <div class="image" data-aos="fade-up">
+                <img src="images/podcast2.png" alt="">
+            </div>
+        </section>
+        <!-- home section ends -->
+
+        <!--Treding Topics Starts Here-->
+        <section class="menu" id="menu">
+            <h1 class="heading">
+                our trending
+                <span>Topics</span>
+            </h1>
+            <ul class="list" data-aos="fade-down">
+                <li class="btn" data-src="images/relationship.jpg">Relationship</li>
+                <li class="btn active" data-src="images/business.jpg">Business</li>
+                <li class="btn" data-src="images/career.jpg">Career</li>
+                <li class="btn" data-src="images/investment.jpg">Investment</li>
+            </ul>
+            <div class="row" data-aos="fade-right">
+                <div class="image" data-aos="fade-left">
+                    <img src="images/business.jpg" id="menu-img" alt="">
+                </div>
+                <div class="content">
+                    <div class="info">
+                        <h3>
+                            <span>Episode 01.</span>
+                            we serve best food in the country
+                        </h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum, vero?</p>
+                    </div>
+                    <div class="info">
+                        <h3>
+                            <span>Episode 02.</span>
+                            we serve best food in the country
+                        </h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum, vero?</p>
+                    </div>
+                    <div class="info">
+                        <h3>
+                            <span> Episode 03.</span>
+                            we serve best food in the country
+                        </h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum, vero?</p>
+                    </div>
+                    <div class="info">
+                        <h3>
+                            <span> Episode 04.</span>
+                            we serve best food in the country
+                        </h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum, vero?</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Treding Topics Ends Here-->
+
+        <!-- footer section starts  -->
+        <div class="footer">
+            <div class="box-container">
+                <div class="box">
+                    <h3>contact info</h3>
+                    <p>
+                        <i class="fas fa-map-marker-alt"></i>
+                        Nairobi, Kenya  49940 – 00100
+                    </p>
+                    <p>
+                        <i class="fas fa-envelope"></i>
+                        theadultyngpodcast@gmail.com
+                    </p>
+                    <p>
+                        <i class="fas fa-phone"></i>
+                        +254716439833
+                    </p>
+                    <p>
+                        <i class="fas fa-phone"></i>
+                        +254700000056
+                    </p>
+                </div>
+                <div class="box">
+                    <h3>Topics</h3>
+                    <a href="#">Relationship</a>
+                    <a href="#">Business</a>
+                    <a href="#">Career</a>
+                    <a href="#">Investment</a>
+                </div>
+                <div class="box">
+                    <h3>quick links</h3>
+                    <a href="#home">home</a>
+                    <a href="#about">about Us</a>
+                    <a href="#podcast">Podcast</a>
+                    <a href="#contact">Contact Us</a>
+                </div>
+                <div class="box">
+                    <h3>follow us</h3>
+                    <a href="https://www.instagram.com/gideonebenezer_01/">instagram</a>
+                    <a href="https://www.facebook.com/gedionkipla.somo">facebook</a>
+                    <a href="https://www.linkedin.com/in/gideon-kiplangat-aaa478179/?originalSubdomain=ke">linkedin</a>
+                </div>
+            </div>
+            <h1 class="credit">
+                created by
+                <a href="#">G&P</a>
+                all rights reserved.
+            </h1>
+        </div>
+        <!-- footer section ends -->
+
+        <!-- aos js cdn link  -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+        <!-- jquery cdn link  -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <!-- custom js file link  -->
+        <script src="main.js"></script>
+        <!-- initializing aos  -->
+        <script>
+
+    AOS.init({
+        delay:400,
+        duration:1000
+    })
+        </script>
+    </body>
 </html>
